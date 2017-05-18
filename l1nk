@@ -1,5 +1,22 @@
+'''
+l1nk - a link shortener for terminal which uses l1nk.ir
+Copyright (C) 2017  Farhadhp <farhadhp's_email@somewhere.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+'''
 #!/usr/bin/python
-import requests,json
+import requests, json
 import urllib2
 import base64
 import sys
@@ -11,17 +28,17 @@ if len(sys.argv) < 2:
 else:
 	long_link = sys.argv[1]
 
-#long_link = raw_input("Plz enter your long link: ")
+# long_link = raw_input("Plz enter your long link: ")
 long_link = base64.b64encode(long_link)
-url='http://l1nk.ir/api/v1/public/'+long_link
+url= 'http://l1nk.ir/api/v1/public/' + long_link
 
 req = urllib2.Request(url)
 req.add_header('Accept', 'application/json')
 req.add_header("Content-type", "application/x-www-form-urlencoded")
 
 res = urllib2.urlopen(req)
-out=json.load(res)
+out = json.load(res)
 try:
-	print("Short link: "+out["full_short_link"])
+	print("Short link: " + out["full_short_link"])
 except:
 	print(out['error'])
