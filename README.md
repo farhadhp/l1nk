@@ -10,3 +10,11 @@ A  link shorter for terminal
 2) insert `l1nk` and enter
 3) insert or paste your long link and enter
 
+# License
+This is free software -> GPL : more information -> https://fsf.org
+
+
+
+
+
+
