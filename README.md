@@ -7,8 +7,7 @@ A  link shorter for terminal
 
 # How to use
 1) Open terminal
-2) insert `l1nk` and enter
-3) insert or paste your long link and enter
+2) insert `l1nk http://YOUR-LONG-LINK.com` and enter
 
 # License
 This is free software -> GPL : more information -> https://fsf.org
