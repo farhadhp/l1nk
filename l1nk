@@ -6,7 +6,11 @@ import sys
 
 # author: Farhad Hassan Pour -> http://farhadhp.ir
 
-long_link = sys.argv[1]
+if len(sys.argv) < 2:
+	long_link = raw_input("Plz enter your long link: ")
+else:
+	long_link = sys.argv[1]
+
 #long_link = raw_input("Plz enter your long link: ")
 long_link = base64.b64encode(long_link)
 url='http://l1nk.ir/api/v1/public/'+long_link
