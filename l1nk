@@ -29,7 +29,7 @@ else:
 	long_link = sys.argv[1]
 
 # long_link = raw_input("Plz enter your long link: ")
-long_link = base64.b64encode(long_link)
+#long_link = base64.b64encode(long_link)
 url= 'http://g02.ir/api/v1/public/?link=' + long_link
 
 req = urllib2.Request(url)
