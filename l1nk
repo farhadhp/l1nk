@@ -30,7 +30,7 @@ else:
 
 # long_link = raw_input("Plz enter your long link: ")
 long_link = base64.b64encode(long_link)
-url= 'http://l1nk.ir/api/v1/public/' + long_link
+url= 'http://g02.ir/api/v1/public/?link=' + long_link
 
 req = urllib2.Request(url)
 req.add_header('Accept', 'application/json')
