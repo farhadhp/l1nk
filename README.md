@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/github/license/FarhadHP/l1nk.svg?maxAge=2592000)](https://raw.githubusercontent.com/FarhadHP/l1nk/master/LICENSE.txt)
+
 # l1nk
 A  link shorter for terminal
 
