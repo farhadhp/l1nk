@@ -1,4 +1,5 @@
-[![license](https://img.shields.io/github/license/FarhadHP/l1nk.svg?maxAge=2592000)](https://raw.githubusercontent.com/FarhadHP/l1nk/master/LICENSE.txt)
+[![Telegram Chat](https://img.shields.io/badge/Chat-Telegram-blue.svg)](https://t.me/FarhadxFarhad)
+[![license](https://img.shields.io/github/license/FarhadHP/l1nk.svg?maxAge=2592000)](https://raw.githubusercontent.com/FarhadHP/l1nk/master/LICENSE)
 
 # l1nk
 A  link shorter for terminal
