@@ -6,7 +6,9 @@ A  link shorter for terminal
 
 ## Installation
 1) Open terminal
-2) insert `sudo ./install` and enter
+2) install python
+3) install python request : `pip install requests`
+4) insert `sudo ./install` and enter
 
 ## How to use
 1) Open terminal
